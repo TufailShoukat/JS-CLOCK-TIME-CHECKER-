@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid ul-Adha Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img">
+
+        <marquee behavior="" direction="" class="hover">Let's Check When "Eid - ul Adha" is comming:</marquee>
+        <div class=" gradient-border" id="clock">
+            <div class="div1st">
+                <p>Current Time: <span id="current-time"> </span></p>
+            </div>
+            <div class="div2nd">
+                <p>Time Left until <span id="event-name"></span>: <span id="countdown"></span></p>
+            </div>
+            <label for="event-date" id="enter" class="input">Enter the Date:</label>
+            <input type="date" id="event-date">
+            <div class="last"> <button onclick="setCountdown()" class="button">Set Countdown</button></div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

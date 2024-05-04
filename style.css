@@ -1,0 +1,189 @@
+body {
+    background: linear-gradient(to bottom, navy, #4682B4);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./eid-al-adha-mubarak-religious-festival-yellow-watercolor-background-vector_1055-10611.avif);
+
+
+
+}
+
+#clock {
+
+    background: linear-gradient(101.9deg, rgb(197, 120, 234) 1.6%, rgb(120, 220, 234) 51.2%, rgb(119, 249, 176) 99.8%);
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    width: 300px;
+    margin-left: 33%;
+    margin-top: 5%;
+    height: 400px;
+
+
+}
+
+.div1st,
+.div2nd,
+input {
+    transition: color 0.3s ease;
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    background: linear-gradient(to right, #007bff, #0056b3);
+    background: linear-gradient(to bottom, #add8e6, #4169e1);
+    color: black;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 5px #888;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    /* Rounded corners */
+
+
+
+}
+
+.gradient-border {
+
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border,
+.last:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+.div1st {
+    width: 300px;
+    position: relative;
+    right: 20px;
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#clock p {
+    font-family: "Lucida Console";
+    margin: 10px 0;
+
+
+}
+
+#current-time,
+#countdown {
+    color: #fff;
+    font-family: "Lucida Console";
+    font-size: larger;
+
+
+
+}
+
+#enter {
+    font-family: "Lucida Console"
+
+
+
+}
+
+marquee {
+    font-family: "Lucida Console";
+    font-size: 24px;
+    color: #ffffff;
+    /* Text color */
+    background-color: #007bff;
+    /* Background color */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+marquee:hover {
+    background-color: #007bff;
+    /* Change background color on hover */
+}
+
+#event-date {
+    background-color: #007bff;
+    ;
+    padding: 10px;
+    border: 1px solid #07b39b;
+    color: white;
+    font-family: "Lucida Console";
+}
+
+.button {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    background: linear-gradient(to right, #007bff, #0056b3);
+    background: linear-gradient(to bottom, #add8e6, #4169e1);
+    margin-left: 70px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+    font-family: "Lucida Console"
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #0056b3;
+}
+
+#event-date {
+    border-radius: 3px;
+
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
